@@ -14,7 +14,7 @@ based_plate_thick = 0.02;
 bottom_plate_thick = 0.01;
 
 % ---
-%L2 = 0.35; %%%%%%%%%% 9siiiira %%%
+%L2 = 0.35; 
 L2 = 0.6;
 
 %L3 = 0.25; % Longueur pour Upper Link torbit bin zouz bas parallel 
