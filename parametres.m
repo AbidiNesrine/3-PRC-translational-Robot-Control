@@ -1,19 +1,14 @@
 %Workspace of Delta Robot
 clear
 clc
-%% jdid
-% ancien R = 0.45; 
 R = 0.364; 
 h = 0.6;
 r = 0.036;
 b = pi/6;
-
 L1 = h; % Simscape
-clearvars -except R h R1 L1 % On garde nos paramètres
 % --------------------------------------------
 Px = linspace(-0.5,0.5);
 Py = linspace(-0.5,0.5);
-%Pz = linspace(0.2,0.8); fauuuuuuuuuux
 Pz = linspace(-0.8,-0.2);
 possible_ws = zeros(1,3,1000000);
 i = 1;
